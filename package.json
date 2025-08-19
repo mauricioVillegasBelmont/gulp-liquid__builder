@@ -1,0 +1,39 @@
+{
+  "name": "dev_test_0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "NODE_ENV=production gulp build",
+    "dev": "NODE_ENV=development gulp",
+    "clear": "NODE_ENV=development gulp clear"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.12",
+    "@types/gulp": "^4.0.17",
+    "@types/gulp-postcss": "^8.0.6",
+    "@types/gulp-rename": "^2.0.6",
+    "@types/gulp-sass": "^5.0.4",
+    "@types/gulp-uglify": "^3.0.11",
+    "autoprefixer": "^10.4.21",
+    "chokidar": "^4.0.3",
+    "cssnano": "^7.1.0",
+    "glob": "^11.0.3",
+    "gulp": "^5.0.1",
+    "gulp-postcss": "^10.0.0",
+    "gulp-rename": "^2.1.0",
+    "gulp-sass": "^6.0.1",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "gulp-uglify": "^3.0.2",
+    "rimraf": "^6.0.1",
+    "sass": "^1.90.0",
+    "tailwindcss": "^4.1.12",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
