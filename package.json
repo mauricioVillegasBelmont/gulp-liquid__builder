@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "NODE_ENV=production gulp build",
-    "dev": "NODE_ENV=development gulp",
+    "dev": "NODE_ENV=development gulp watch",
     "clear": "NODE_ENV=development gulp clear"
   },
   "keywords": [],

@@ -1,13 +1,103 @@
+# compiled output
+/dist
+/node_modules
+/build
+
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+
+# Tests
+/coverage
+/.nyc_output
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# dotenv environment variable files
+.env
+.env.*
+!.env.dist
+
+
+# temp directory
+.temp
+.tmp
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+
 # OS generated files #
 ######################
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*Zone.Identifier
+*.ini
+
+# Mac OS X
+*/.DS_Store
 .DS_Store
 .DS_Store?
+.AppleDouble
+.LSOverride
+Icon
 ._*
 .Spotlight-V100
 .Trashes
-ehthumbs.db
-Thumbs.db
-node_modules/
+
+#help extensions
+*.back
+*.old
+*.note
+*.copy
+*.key
+*.local
+
+
+*.back.*
+*.old.*
+*.note.*
+*.copy.*
+*.key.*
+*.local.*
+
+
+
+# Proyect ussed
+*.googleusercontent.com.json
+*.pdf
+
 
 # Shopify CLI files
 .shopify/
@@ -15,3 +105,4 @@ node_modules/
 ## Release files
 release
 *.zip
+
